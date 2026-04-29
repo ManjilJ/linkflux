@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>LinkFlux</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        background: #050508;
+        user-select: none;
+        font-family: "Segoe UI", sans-serif;
+        touch-action: none;
+      }
+      canvas {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+      }
+      #ui-container {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: rgba(255, 255, 255, 0.3);
+        pointer-events: auto;
+        letter-spacing: 2px;
+        font-size: 11px;
+        border-left: 1px solid rgba(0, 212, 255, 0.3);
+        padding-left: 15px;
+        z-index: 100;
+      }
+      .mode-label {
+        display: block;
+        margin-bottom: 6px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+      }
+      .active {
+        color: #00d4ff;
+        font-weight: bold;
+        text-shadow: 0 0 12px rgba(0, 212, 255, 0.5);
+        transform: translateX(8px);
+      }
+      .status {
+        margin-top: 15px;
+        font-size: 9px;
+        color: rgba(255, 255, 255, 0.15);
+        text-transform: uppercase;
+      }
+      .btn-log {
+        margin-top: 20px;
+        display: block;
+        background: none;
+        border: 1px solid rgba(0, 212, 255, 0.2);
+        color: rgba(0, 212, 255, 0.6);
+        padding: 5px 10px;
+        font-size: 9px;
+        cursor: pointer;
+        letter-spacing: 1px;
+      }
+      .btn-log:hover {
+        border-color: #00d4ff;
+        color: #00d4ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="ui-container">
+      <span id="m1" class="mode-label">ALT+1: NEURONAL BEAST</span>
+      <span id="m2" class="mode-label">ALT+2: SYNAPTIC SCHOOL</span>
+      <span id="m3" class="mode-label">ALT+3: VOID CROSS</span>
+      <span id="m4" class="mode-label">ALT+4: LOGIC TICK</span>
+      <span id="m5" class="mode-label">ALT+5: SUPERNOVA</span>
+      <span id="m6" class="mode-label">ALT+6: ORBITAL CORE</span>
+      <span id="m7" class="mode-label">ALT+7: CYBER MIND</span>
+      <span id="m8" class="mode-label">ALT+8: GENERATED (PROC)</span>
+      <div id="status-bar" class="status">Initializing...</div>
+      <!--button class="btn-log" onclick="downloadArchive()">
+        DOWNLOAD JSON LOG
+      </button-->
+    </div>
+    <canvas id="canvas"></canvas>
+
+    <script src="linkflux.min.js">
+    </script>
+  </body>
+</html>
