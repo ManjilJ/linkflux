@@ -3,7 +3,7 @@
 > **Mathematical Neuronal Figurines in Motion**  
 > A generative engine that transforms connectome data and equations into ephemeral structures.
 
-[**🚀 Live Link **](https://manjilj.github.io/linkflux/)
+[**🚀 Live Link **](https://manjilj.github.io/linkflux/srcd/)
 
     🎛️ Controls: Use ALT + 1-8 to switch axioms. Mouse hover to influence, click-drag to sculpt.
 ---
