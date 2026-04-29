@@ -5,13 +5,14 @@
 
 [**🚀 Live Link **](https://manjilj.github.io/linkflux/)
 
+    🎛️ Controls: Use ALT + 1-8 to switch axioms. Mouse hover to influence, click-drag to sculpt.
 ---
 
 ## ✨ Overview
 
-**LinkFlux** is a JavaScript-powered visualization tool that bridges the gap between biological data and generative art. It uses mathematical equations to plot neuronal "figurines".
+**LinkFlux** is a JavaScript-powered visualization helper tool that depicts procedural generative art. It uses mathematical equations to plot neuronal "figurines".
 
-This project simulates the rapid, pulsing nature of neural activity, turning raw data points into a continuous flow of unique synaptic structures.
+This project 'simulates' the rapid, pulsing nature of neural activity, turning raw data points into a continuous flow of synaptic-like structures.
 
 ## 🛠 Features
 
@@ -23,3 +24,5 @@ This project simulates the rapid, pulsing nature of neural activity, turning raw
 *   🖱️ Proximity Influence: Nodes dynamically scatter or converge based on mouse distance, creating a living, reactive connectome that responds to your presence.
 *   🤏 Tactile Sculpting: Use left-click dragging to temporarily manually manipulate the figurine's physics, physically pulling or pushing data points to reshape the structure in real-time.
 *   🌓 Chromatic Drift: The system undergoes periodic color transformations, cycling from vibrant spectral hues to a minimalist, and also random high-contrast black-and-white aesthetic.
+
+🎨 Hope you Enjoy!!
